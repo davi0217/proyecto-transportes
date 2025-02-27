@@ -5,6 +5,6 @@ public class Barco extends Vehiculo implements ConMotor {
     }
 
     public void describir(){
-        System.out.println("Soy un barco que navega a "+velocidadMaxima+" km/h");
+        System.out.println("Soy un barco que navega a "+getVelocidadMaxima()+" km/h");
     }
 }

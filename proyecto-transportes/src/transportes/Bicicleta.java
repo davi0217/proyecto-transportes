@@ -5,6 +5,6 @@ public class Bicicleta extends Vehiculo implements SinMotor {
     }
 
     public void describir(){
-        System.out.println("Soy una bicicleta con una velocidad máxima de "+velocidadMaxima+" km/h");
+        System.out.println("Soy una bicicleta con una velocidad máxima de "+getVelocidadMaxima()+" km/h");
     }
 }
