@@ -2,7 +2,7 @@ package app;
 
 import transportes.*;
 
-public class App {
+public class Main {
     public static void main(String[] args) {
         Coche miCoche = new Coche(180);
         Bicicleta miBici = new Bicicleta(30);
